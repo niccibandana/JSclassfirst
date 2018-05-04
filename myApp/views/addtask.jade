@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    h1= title
+    form#formAddTask(name="addtask",method="post",action="/addtask")
+        input#inputTaskName(type="text", placeholder="taskname", name="taskname")
+        input#inputTaskDesc(type="text", placeholder="taskdesc", name="taskdesc")
+        input#inputCompleted(type="text", placeholder="completed", name="completed")
+        input#inputAssigned(type="text", placeholder="assigned to", name="assigned")
+        button#btnSubmit(type="submit") submit
