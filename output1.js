@@ -1,4 +1,4 @@
-function conosolePrint(){
+function consolePrint(){
     console.log("hello Nicole");
 }
 function alertPrint() {
